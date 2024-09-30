@@ -41,3 +41,15 @@ let _name123;
 // let @123name;
 // let "name";
 // let 'name';
+
+// scopo
+
+function testeScopo () {
+    if (true) {
+        let x = 10;
+        var y = 20;
+    }
+    console.log (x)
+    console.log (y)
+}
+testeScopo()
